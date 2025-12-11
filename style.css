@@ -189,6 +189,14 @@ a {
     overflow: hidden;
     box-shadow: 0 0 20px rgba(192, 132, 252, 0.2);
     display: inline-block;
+    width: 100%;
+    max-width: 560px;
+}
+
+.music-container iframe {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 16 / 9;
 }
 
 /* Footer */
